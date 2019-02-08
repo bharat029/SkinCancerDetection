@@ -130,7 +130,7 @@ trial_dest = r'E:\SkinCancerDetection\Cropped\Center'
 #copy_and_crop(removable_dest, trial_dest)
 #copy_and_crop(nb_src, nb_dest)
 #copy_and_crop(malignant_src, malignant_dest)
-train_valid_test_split(benign_dest, train_dest, valid_dest, test_dest, dir_name='Benign')
+#train_valid_test_split(benign_dest, train_dest, valid_dest, test_dest, dir_name='Benign')
 train_valid_test_split(malignant_dest, train_dest, valid_dest, test_dest, dir_name='Malignant')
 #divide(nb_dest, malignant_dest, malignant_src)
 #extract(new_data)
